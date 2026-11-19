@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qsminer"
+version = "0.1.0"
+description = "Prioritização experimental de testes de regressão"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+qsminer = "qsminer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["qsminer*"]
+
+[tool.setuptools.package-data]
+"qsminer.adapters" = ["*.java"]

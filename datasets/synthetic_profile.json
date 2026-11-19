@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "changed": [["example/Price.java", 12], ["example/Price.java", 14]],
+  "tests": [
+    {"test": "example.PriceTest::expensive", "seconds": 10.0,
+     "covered": [["example/Price.java", 12], ["example/Price.java", 14], ["example/Price.java", 22]]},
+    {"test": "example.PriceTest::quick", "seconds": 2.0,
+     "covered": [["example/Price.java", 12]]},
+    {"test": "example.PriceTest::edge", "seconds": 3.0,
+     "covered": [["example/Price.java", 14]]},
+    {"test": "example.PriceTest::unrelated", "seconds": 1.0,
+     "covered": [["example/Price.java", 22], ["example/Price.java", 27]]}
+  ]
+}

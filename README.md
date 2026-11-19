@@ -32,7 +32,3 @@ O projeto Moment.js foi identificado no [repositório de mineração de merges J
 ## Adaptador Java
 
 O repositório também inclui um adaptador para [Defects4J 3.0.1](https://github.com/rjust/defects4j/tree/v3.0.1). Para usar o adaptador no Linux ou WSL, instale o benchmark com JDK 11 segundo a documentação oficial e coloque `defects4j` no PATH. Use `python3 -m qsminer doctor` para verificar a instalação e `python3 -m qsminer run --help` para consultar as opções. O piloto documentado acima usa Node.js.
-
-## Créditos
-
-Priscila Timóteo de Almeida é responsável pelo projeto e definiu o problema de pesquisa. O OpenAI Codex apoiou a formulação da heurística CARP e a implementação inicial.
